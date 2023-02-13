@@ -1,0 +1,22 @@
+.tuto{
+    color: black;
+    font-family: 'CoreCircus', sans-serif;
+      font-size: 8vw;
+      text-align: center;
+      line-height: 1;
+      margin: 0;
+      top: 200px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      position: relative;
+}
+.colu{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+}
+.leftcolu , .centercolu , .rightcolu{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}

@@ -1,0 +1,25 @@
+.material{
+    color: black;
+    font-family: 'CoreCircus', sans-serif;
+      font-size: 8vw;
+      text-align: center;
+      line-height: 1;
+      margin: 0;
+      top: 200px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      position: relative;
+}
+.col{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+}
+.leftcol , .centercol , .rightcol{
+    margin-top: 40px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    width: 30%;
+}

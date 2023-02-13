@@ -1,0 +1,54 @@
+.footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 0% ;
+    
+  }
+  .foot {
+    flex-grow: 1;
+    border: none;
+    height: 1px;
+    background-color: black;
+    width: 100%;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+ 
+    font-weight: bold;
+  }
+  
+  .aboutus{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size:60px;
+  }
+
+.name{
+    font-size: 30px;
+}
+  
+  .info  {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .left, .center, .right {
+    margin-top: 40px;
+
+    margin-left: 10%;
+    color: white;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    width: 30%;
+  }
+  
+  
